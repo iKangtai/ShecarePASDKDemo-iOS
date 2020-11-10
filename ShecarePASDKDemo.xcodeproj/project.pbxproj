@@ -1,0 +1,1193 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042EE2EB2374669800EF6614 /* SCNetPb.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 042EE2E92374669800EF6614 /* SCNetPb.bundle */; };
+		044A636E2373248600AEC1BA /* YCLHResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A636D2373248500AEC1BA /* YCLHResultViewController.m */; };
+		044A63782373285F00AEC1BA /* YCLHCardEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A63702373285E00AEC1BA /* YCLHCardEditView.m */; };
+		044A63792373285F00AEC1BA /* YCLHResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A63732373285F00AEC1BA /* YCLHResultView.m */; };
+		044A637A2373285F00AEC1BA /* YCLHCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A63752373285F00AEC1BA /* YCLHCardCell.m */; };
+		044A637D23732B3200AEC1BA /* YCLHTCBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A637B23732B3200AEC1BA /* YCLHTCBubbleView.m */; };
+		044A638023732B8100AEC1BA /* UIColor+YCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A637E23732B8100AEC1BA /* UIColor+YCExtension.m */; };
+		044A63872373490800AEC1BA /* YCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A63862373490800AEC1BA /* YCViewController.m */; };
+		0464EE5923A373DC00F311F2 /* YCLHPaperManualClipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464EE5723A373DC00F311F2 /* YCLHPaperManualClipViewController.m */; };
+		0464EE6A23A3789900F311F2 /* YCTakeLHPhotoManualView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464EE6923A3789900F311F2 /* YCTakeLHPhotoManualView.m */; };
+		047AEB3823702100009964FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEB3723702100009964FC /* AppDelegate.m */; };
+		047AEB3E23702100009964FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEB3D23702100009964FC /* ViewController.m */; };
+		047AEB4323702101009964FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047AEB4223702101009964FC /* Assets.xcassets */; };
+		047AEB4623702101009964FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047AEB4423702101009964FC /* LaunchScreen.storyboard */; };
+		047AEB4923702101009964FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEB4823702101009964FC /* main.m */; };
+		047AEB5323702101009964FC /* ShecarePASDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEB5223702101009964FC /* ShecarePASDKDemoTests.m */; };
+		047AEB5E23702101009964FC /* ShecarePASDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEB5D23702101009964FC /* ShecarePASDKDemoUITests.m */; };
+		047AEC782371C491009964FC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC772371C490009964FC /* AVFoundation.framework */; };
+		047AEC7A2371C49E009964FC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC792371C49E009964FC /* CoreMedia.framework */; };
+		047AEC7C2371C4A5009964FC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7B2371C4A5009964FC /* Accelerate.framework */; };
+		047AEC802371C4F7009964FC /* nsync.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7D2371C4F7009964FC /* nsync.a */; };
+		047AEC812371C4F7009964FC /* libtensorflow-core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7E2371C4F7009964FC /* libtensorflow-core.a */; };
+		047AEC822371C4F7009964FC /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7F2371C4F7009964FC /* libprotobuf.a */; };
+		047AEC852371C50B009964FC /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC832371C50B009964FC /* opencv2.framework */; };
+		047AEC882371C759009964FC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC872371C74A009964FC /* libc++.tbd */; };
+		049009EA2397F3E7003E6817 /* YCTakeLHPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049009E72397F3E7003E6817 /* YCTakeLHPhotoViewController.m */; };
+		522B84FD25541DAE0088093D /* YCCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522B84F925541DAE0088093D /* YCCustomNavigationController.m */; };
+		522B84FE25541DAE0088093D /* YCCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522B84F925541DAE0088093D /* YCCustomNavigationController.m */; };
+		522B84FF25541DAE0088093D /* YCCustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522B84FA25541DAE0088093D /* YCCustomTabBarController.m */; };
+		522B850025541DAE0088093D /* YCCustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522B84FA25541DAE0088093D /* YCCustomTabBarController.m */; };
+		524268BB249C6A32003602D3 /* ori_images in Resources */ = {isa = PBXBuildFile; fileRef = 524268B8249C6A32003602D3 /* ori_images */; };
+		524268BC249C6A32003602D3 /* result_images in Resources */ = {isa = PBXBuildFile; fileRef = 524268B9249C6A32003602D3 /* result_images */; };
+		524268BD249C6A32003602D3 /* ori_images_barcode in Resources */ = {isa = PBXBuildFile; fileRef = 524268BA249C6A32003602D3 /* ori_images_barcode */; };
+		524268BE249C6A45003602D3 /* SCPaperAnalysiserSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E09EF22428B14E0078D2DB /* SCPaperAnalysiserSDK.framework */; };
+		524268BF249C6A48003602D3 /* SCNetPb.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 042EE2E92374669800EF6614 /* SCNetPb.bundle */; };
+		524268C0249C6A51003602D3 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC832371C50B009964FC /* opencv2.framework */; };
+		524268C1249C6A5C003602D3 /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7F2371C4F7009964FC /* libprotobuf.a */; };
+		524268C2249C6A5D003602D3 /* libtensorflow-core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7E2371C4F7009964FC /* libtensorflow-core.a */; };
+		524268C3249C6A5D003602D3 /* nsync.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7D2371C4F7009964FC /* nsync.a */; };
+		524268C4249C6A64003602D3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7B2371C4A5009964FC /* Accelerate.framework */; };
+		524268C5249C6A64003602D3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC792371C49E009964FC /* CoreMedia.framework */; };
+		524268C6249C6A64003602D3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC772371C490009964FC /* AVFoundation.framework */; };
+		524268C7249C6B16003602D3 /* UIColor+YCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A637E23732B8100AEC1BA /* UIColor+YCExtension.m */; };
+		524268C8249C6B3A003602D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEB3723702100009964FC /* AppDelegate.m */; };
+		524268C9249C6B3A003602D3 /* YCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A63862373490800AEC1BA /* YCViewController.m */; };
+		524268CA249C6B3A003602D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEB3D23702100009964FC /* ViewController.m */; };
+		524268CB249C6B3A003602D3 /* YCLHResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A636D2373248500AEC1BA /* YCLHResultViewController.m */; };
+		524268CC249C6B3A003602D3 /* YCLHCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A63752373285F00AEC1BA /* YCLHCardCell.m */; };
+		524268CD249C6B3A003602D3 /* YCLHCardEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A63702373285E00AEC1BA /* YCLHCardEditView.m */; };
+		524268CE249C6B3A003602D3 /* YCLHResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A63732373285F00AEC1BA /* YCLHResultView.m */; };
+		524268CF249C6B3A003602D3 /* YCLHTCBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A637B23732B3200AEC1BA /* YCLHTCBubbleView.m */; };
+		524268D0249C6B3A003602D3 /* YCTakeLHPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049009E72397F3E7003E6817 /* YCTakeLHPhotoViewController.m */; };
+		524268D1249C6B3A003602D3 /* YCLHPaperManualClipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464EE5723A373DC00F311F2 /* YCLHPaperManualClipViewController.m */; };
+		524268D2249C6B3A003602D3 /* YCTakeLHPhotoManualView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464EE6923A3789900F311F2 /* YCTakeLHPhotoManualView.m */; };
+		524268D3249C6B3A003602D3 /* YCImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F9893823EA8C8F0093C2FE /* YCImage+Extension.m */; };
+		524268D4249C6B3A003602D3 /* YCDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F9893A23EA8CD40093C2FE /* YCDeviceInfo.m */; };
+		524268D5249C6B3A003602D3 /* YCViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E56972240D1265009B05CE /* YCViewController+Extension.m */; };
+		524268D6249C6E8D003602D3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC872371C74A009964FC /* libc++.tbd */; };
+		524268D9249C6EB6003602D3 /* ShecareTestsUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 524268D7249C6EB6003602D3 /* ShecareTestsUtilities.m */; };
+		525466CF24D3EA8D0042FCBB /* YCLHCardEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A63702373285E00AEC1BA /* YCLHCardEditView.m */; };
+		525466D024D3EA8D0042FCBB /* YCDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F9893A23EA8CD40093C2FE /* YCDeviceInfo.m */; };
+		525466D124D3EA8D0042FCBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEB3D23702100009964FC /* ViewController.m */; };
+		525466D224D3EA8D0042FCBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEB3723702100009964FC /* AppDelegate.m */; };
+		525466D324D3EA8D0042FCBB /* YCLHCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A63752373285F00AEC1BA /* YCLHCardCell.m */; };
+		525466D424D3EA8D0042FCBB /* YCLHTCBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A637B23732B3200AEC1BA /* YCLHTCBubbleView.m */; };
+		525466D524D3EA8D0042FCBB /* YCTakeLHPhotoManualView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464EE6923A3789900F311F2 /* YCTakeLHPhotoManualView.m */; };
+		525466D624D3EA8D0042FCBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEB4823702101009964FC /* main.m */; };
+		525466D724D3EA8D0042FCBB /* YCLHResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A636D2373248500AEC1BA /* YCLHResultViewController.m */; };
+		525466D824D3EA8D0042FCBB /* YCLHResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A63732373285F00AEC1BA /* YCLHResultView.m */; };
+		525466D924D3EA8D0042FCBB /* YCViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E56972240D1265009B05CE /* YCViewController+Extension.m */; };
+		525466DA24D3EA8D0042FCBB /* YCImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F9893823EA8C8F0093C2FE /* YCImage+Extension.m */; };
+		525466DB24D3EA8D0042FCBB /* YCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A63862373490800AEC1BA /* YCViewController.m */; };
+		525466DC24D3EA8D0042FCBB /* YCTakeLHPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049009E72397F3E7003E6817 /* YCTakeLHPhotoViewController.m */; };
+		525466DD24D3EA8D0042FCBB /* UIColor+YCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A637E23732B8100AEC1BA /* UIColor+YCExtension.m */; };
+		525466DE24D3EA8D0042FCBB /* YCLHPaperManualClipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464EE5723A373DC00F311F2 /* YCLHPaperManualClipViewController.m */; };
+		525466E024D3EA8D0042FCBB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC792371C49E009964FC /* CoreMedia.framework */; };
+		525466E124D3EA8D0042FCBB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7B2371C4A5009964FC /* Accelerate.framework */; };
+		525466E224D3EA8D0042FCBB /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC832371C50B009964FC /* opencv2.framework */; };
+		525466E324D3EA8D0042FCBB /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7F2371C4F7009964FC /* libprotobuf.a */; };
+		525466E424D3EA8D0042FCBB /* SCPaperAnalysiserSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E09EF22428B14E0078D2DB /* SCPaperAnalysiserSDK.framework */; };
+		525466E524D3EA8D0042FCBB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC772371C490009964FC /* AVFoundation.framework */; };
+		525466E624D3EA8D0042FCBB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC872371C74A009964FC /* libc++.tbd */; };
+		525466E724D3EA8D0042FCBB /* nsync.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7D2371C4F7009964FC /* nsync.a */; };
+		525466E824D3EA8D0042FCBB /* libtensorflow-core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7E2371C4F7009964FC /* libtensorflow-core.a */; };
+		525466E924D3EA8D0042FCBB /* libPods-ShecarePASDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8136132E1789506085285F2 /* libPods-ShecarePASDKDemo.a */; };
+		525466EB24D3EA8D0042FCBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047AEB4423702101009964FC /* LaunchScreen.storyboard */; };
+		525466EC24D3EA8D0042FCBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047AEB4223702101009964FC /* Assets.xcassets */; };
+		525466ED24D3EA8D0042FCBB /* SCNetPb.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 042EE2E92374669800EF6614 /* SCNetPb.bundle */; };
+		52E09EF32428B14E0078D2DB /* SCPaperAnalysiserSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E09EF22428B14E0078D2DB /* SCPaperAnalysiserSDK.framework */; };
+		52E56973240D1265009B05CE /* YCViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E56972240D1265009B05CE /* YCViewController+Extension.m */; };
+		52F9893923EA8C8F0093C2FE /* YCImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F9893823EA8C8F0093C2FE /* YCImage+Extension.m */; };
+		52F9893C23EA8CD40093C2FE /* YCDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F9893A23EA8CD40093C2FE /* YCDeviceInfo.m */; };
+		9256B20847EDAEA6A2D96905 /* libPods-ShecarePASDKDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0548B9A2B4162D6B09AECA02 /* libPods-ShecarePASDKDemoTests.a */; };
+		CBCC3C192B9638CC6312EB0E /* libPods-ShecarePASDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8136132E1789506085285F2 /* libPods-ShecarePASDKDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047AEB4F23702101009964FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047AEB2B23702100009964FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047AEB3223702100009964FC;
+			remoteInfo = ShecarePASDKDemo;
+		};
+		047AEB5A23702101009964FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047AEB2B23702100009964FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047AEB3223702100009964FC;
+			remoteInfo = ShecarePASDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		042EE2E42374658800EF6614 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525466EE24D3EA8D0042FCBB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		042EE2E92374669800EF6614 /* SCNetPb.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SCNetPb.bundle; path = FrameworkAndLib/SCNetPb.bundle; sourceTree = "<group>"; };
+		044A636C2373248500AEC1BA /* YCLHResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLHResultViewController.h; sourceTree = "<group>"; };
+		044A636D2373248500AEC1BA /* YCLHResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCLHResultViewController.m; sourceTree = "<group>"; };
+		044A63702373285E00AEC1BA /* YCLHCardEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCLHCardEditView.m; sourceTree = "<group>"; };
+		044A63722373285F00AEC1BA /* YCLHResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLHResultView.h; sourceTree = "<group>"; };
+		044A63732373285F00AEC1BA /* YCLHResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCLHResultView.m; sourceTree = "<group>"; };
+		044A63742373285F00AEC1BA /* YCLHCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLHCardCell.h; sourceTree = "<group>"; };
+		044A63752373285F00AEC1BA /* YCLHCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCLHCardCell.m; sourceTree = "<group>"; };
+		044A63762373285F00AEC1BA /* YCLHCardEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLHCardEditView.h; sourceTree = "<group>"; };
+		044A637B23732B3200AEC1BA /* YCLHTCBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCLHTCBubbleView.m; sourceTree = "<group>"; };
+		044A637C23732B3200AEC1BA /* YCLHTCBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLHTCBubbleView.h; sourceTree = "<group>"; };
+		044A637E23732B8100AEC1BA /* UIColor+YCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YCExtension.m"; sourceTree = "<group>"; };
+		044A637F23732B8100AEC1BA /* UIColor+YCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YCExtension.h"; sourceTree = "<group>"; };
+		044A63812373306000AEC1BA /* YCConsts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCConsts.h; sourceTree = "<group>"; };
+		044A63852373490800AEC1BA /* YCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCViewController.h; sourceTree = "<group>"; };
+		044A63862373490800AEC1BA /* YCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCViewController.m; sourceTree = "<group>"; };
+		0464EE5723A373DC00F311F2 /* YCLHPaperManualClipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCLHPaperManualClipViewController.m; sourceTree = "<group>"; };
+		0464EE5823A373DC00F311F2 /* YCLHPaperManualClipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLHPaperManualClipViewController.h; sourceTree = "<group>"; };
+		0464EE6823A3789900F311F2 /* YCTakeLHPhotoManualView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCTakeLHPhotoManualView.h; sourceTree = "<group>"; };
+		0464EE6923A3789900F311F2 /* YCTakeLHPhotoManualView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCTakeLHPhotoManualView.m; sourceTree = "<group>"; };
+		047AEB3323702100009964FC /* ShecarePASDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShecarePASDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047AEB3623702100009964FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		047AEB3723702100009964FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		047AEB3C23702100009964FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		047AEB3D23702100009964FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		047AEB4223702101009964FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047AEB4523702101009964FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047AEB4723702101009964FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047AEB4823702101009964FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		047AEB4E23702101009964FC /* ShecarePASDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShecarePASDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047AEB5223702101009964FC /* ShecarePASDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShecarePASDKDemoTests.m; sourceTree = "<group>"; };
+		047AEB5423702101009964FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047AEB5923702101009964FC /* ShecarePASDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShecarePASDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047AEB5D23702101009964FC /* ShecarePASDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShecarePASDKDemoUITests.m; sourceTree = "<group>"; };
+		047AEB5F23702101009964FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047AEC772371C490009964FC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		047AEC792371C49E009964FC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		047AEC7B2371C4A5009964FC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		047AEC7D2371C4F7009964FC /* nsync.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = nsync.a; path = FrameworkAndLib/TensorFlow/nsync.a; sourceTree = "<group>"; };
+		047AEC7E2371C4F7009964FC /* libtensorflow-core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libtensorflow-core.a"; path = "FrameworkAndLib/TensorFlow/libtensorflow-core.a"; sourceTree = "<group>"; };
+		047AEC7F2371C4F7009964FC /* libprotobuf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf.a; path = FrameworkAndLib/TensorFlow/libprotobuf.a; sourceTree = "<group>"; };
+		047AEC832371C50B009964FC /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = FrameworkAndLib/opencv2.framework; sourceTree = "<group>"; };
+		047AEC872371C74A009964FC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		049009E62397F3E7003E6817 /* YCTakeLHPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCTakeLHPhotoViewController.h; sourceTree = "<group>"; };
+		049009E72397F3E7003E6817 /* YCTakeLHPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCTakeLHPhotoViewController.m; sourceTree = "<group>"; };
+		0548B9A2B4162D6B09AECA02 /* libPods-ShecarePASDKDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShecarePASDKDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		522B84F925541DAE0088093D /* YCCustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCCustomNavigationController.m; sourceTree = "<group>"; };
+		522B84FA25541DAE0088093D /* YCCustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCCustomTabBarController.m; sourceTree = "<group>"; };
+		522B84FB25541DAE0088093D /* YCCustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCCustomTabBarController.h; sourceTree = "<group>"; };
+		522B84FC25541DAE0088093D /* YCCustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCCustomNavigationController.h; sourceTree = "<group>"; };
+		524268B8249C6A32003602D3 /* ori_images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ori_images; sourceTree = "<group>"; };
+		524268B9249C6A32003602D3 /* result_images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = result_images; sourceTree = "<group>"; };
+		524268BA249C6A32003602D3 /* ori_images_barcode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ori_images_barcode; sourceTree = "<group>"; };
+		524268D7249C6EB6003602D3 /* ShecareTestsUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShecareTestsUtilities.m; sourceTree = "<group>"; };
+		524268D8249C6EB6003602D3 /* ShecareTestsUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShecareTestsUtilities.h; sourceTree = "<group>"; };
+		524268E224A05814003602D3 /* ShecarePASDKDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShecarePASDKDemo-Prefix.pch"; sourceTree = "<group>"; };
+		525466F224D3EA8D0042FCBB /* PADemo_Ratio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PADemo_Ratio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		525466F324D3EA8E0042FCBB /* ShecarePASDKDemo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ShecarePASDKDemo copy-Info.plist"; path = "/Users/macbookpro/Documents/Projects_Work/Shecare_SDK/ShecarePASDKDemo-iOS/ShecarePASDKDemo copy-Info.plist"; sourceTree = "<absolute>"; };
+		52E09EF22428B14E0078D2DB /* SCPaperAnalysiserSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCPaperAnalysiserSDK.framework; path = FrameworkAndLib/SCPaperAnalysiserSDK.framework; sourceTree = "<group>"; };
+		52E56971240D1265009B05CE /* YCViewController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YCViewController+Extension.h"; sourceTree = "<group>"; };
+		52E56972240D1265009B05CE /* YCViewController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YCViewController+Extension.m"; sourceTree = "<group>"; };
+		52F9893723EA8C8F0093C2FE /* YCImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YCImage+Extension.h"; sourceTree = "<group>"; };
+		52F9893823EA8C8F0093C2FE /* YCImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YCImage+Extension.m"; sourceTree = "<group>"; };
+		52F9893A23EA8CD40093C2FE /* YCDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCDeviceInfo.m; sourceTree = "<group>"; };
+		52F9893B23EA8CD40093C2FE /* YCDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCDeviceInfo.h; sourceTree = "<group>"; };
+		83FB5D5ED6F9B52CF018FFF4 /* Pods-ShecarePASDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShecarePASDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-ShecarePASDKDemo/Pods-ShecarePASDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		94EE3C2C542CC9C541E35EF3 /* Pods-ShecarePASDKDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShecarePASDKDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ShecarePASDKDemoTests/Pods-ShecarePASDKDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F16E97B9912016688C1F84D /* Pods-ShecarePASDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShecarePASDKDemo.release.xcconfig"; path = "Target Support Files/Pods-ShecarePASDKDemo/Pods-ShecarePASDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C0B1D95C717AEB3C6AAC4008 /* Pods-ShecarePASDKDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShecarePASDKDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ShecarePASDKDemoTests/Pods-ShecarePASDKDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8136132E1789506085285F2 /* libPods-ShecarePASDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShecarePASDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047AEB3023702100009964FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047AEC7A2371C49E009964FC /* CoreMedia.framework in Frameworks */,
+				047AEC7C2371C4A5009964FC /* Accelerate.framework in Frameworks */,
+				047AEC852371C50B009964FC /* opencv2.framework in Frameworks */,
+				047AEC822371C4F7009964FC /* libprotobuf.a in Frameworks */,
+				52E09EF32428B14E0078D2DB /* SCPaperAnalysiserSDK.framework in Frameworks */,
+				047AEC782371C491009964FC /* AVFoundation.framework in Frameworks */,
+				047AEC882371C759009964FC /* libc++.tbd in Frameworks */,
+				047AEC802371C4F7009964FC /* nsync.a in Frameworks */,
+				047AEC812371C4F7009964FC /* libtensorflow-core.a in Frameworks */,
+				CBCC3C192B9638CC6312EB0E /* libPods-ShecarePASDKDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047AEB4B23702101009964FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524268C6249C6A64003602D3 /* AVFoundation.framework in Frameworks */,
+				524268C0249C6A51003602D3 /* opencv2.framework in Frameworks */,
+				524268C1249C6A5C003602D3 /* libprotobuf.a in Frameworks */,
+				524268BE249C6A45003602D3 /* SCPaperAnalysiserSDK.framework in Frameworks */,
+				524268C4249C6A64003602D3 /* Accelerate.framework in Frameworks */,
+				524268C2249C6A5D003602D3 /* libtensorflow-core.a in Frameworks */,
+				524268D6249C6E8D003602D3 /* libc++.tbd in Frameworks */,
+				524268C3249C6A5D003602D3 /* nsync.a in Frameworks */,
+				524268C5249C6A64003602D3 /* CoreMedia.framework in Frameworks */,
+				9256B20847EDAEA6A2D96905 /* libPods-ShecarePASDKDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047AEB5623702101009964FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525466DF24D3EA8D0042FCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525466E024D3EA8D0042FCBB /* CoreMedia.framework in Frameworks */,
+				525466E124D3EA8D0042FCBB /* Accelerate.framework in Frameworks */,
+				525466E224D3EA8D0042FCBB /* opencv2.framework in Frameworks */,
+				525466E324D3EA8D0042FCBB /* libprotobuf.a in Frameworks */,
+				525466E424D3EA8D0042FCBB /* SCPaperAnalysiserSDK.framework in Frameworks */,
+				525466E524D3EA8D0042FCBB /* AVFoundation.framework in Frameworks */,
+				525466E624D3EA8D0042FCBB /* libc++.tbd in Frameworks */,
+				525466E724D3EA8D0042FCBB /* nsync.a in Frameworks */,
+				525466E824D3EA8D0042FCBB /* libtensorflow-core.a in Frameworks */,
+				525466E924D3EA8D0042FCBB /* libPods-ShecarePASDKDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047AEB2A23702100009964FC = {
+			isa = PBXGroup;
+			children = (
+				047AEB3523702100009964FC /* ShecarePASDKDemo */,
+				047AEB5123702101009964FC /* ShecarePASDKDemoTests */,
+				047AEB5C23702101009964FC /* ShecarePASDKDemoUITests */,
+				047AEB3423702100009964FC /* Products */,
+				047AEC01237072C9009964FC /* Frameworks */,
+				609186F023EF81E1C3E09B22 /* Pods */,
+				525466F324D3EA8E0042FCBB /* ShecarePASDKDemo copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		047AEB3423702100009964FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047AEB3323702100009964FC /* ShecarePASDKDemo.app */,
+				047AEB4E23702101009964FC /* ShecarePASDKDemoTests.xctest */,
+				047AEB5923702101009964FC /* ShecarePASDKDemoUITests.xctest */,
+				525466F224D3EA8D0042FCBB /* PADemo_Ratio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047AEB3523702100009964FC /* ShecarePASDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				047AEB3623702100009964FC /* AppDelegate.h */,
+				047AEB3723702100009964FC /* AppDelegate.m */,
+				044A63812373306000AEC1BA /* YCConsts.h */,
+				522B84FC25541DAE0088093D /* YCCustomNavigationController.h */,
+				522B84F925541DAE0088093D /* YCCustomNavigationController.m */,
+				522B84FB25541DAE0088093D /* YCCustomTabBarController.h */,
+				522B84FA25541DAE0088093D /* YCCustomTabBarController.m */,
+				044A63852373490800AEC1BA /* YCViewController.h */,
+				044A63862373490800AEC1BA /* YCViewController.m */,
+				047AEB3C23702100009964FC /* ViewController.h */,
+				047AEB3D23702100009964FC /* ViewController.m */,
+				044A636C2373248500AEC1BA /* YCLHResultViewController.h */,
+				044A636D2373248500AEC1BA /* YCLHResultViewController.m */,
+				044A63742373285F00AEC1BA /* YCLHCardCell.h */,
+				044A63752373285F00AEC1BA /* YCLHCardCell.m */,
+				044A63762373285F00AEC1BA /* YCLHCardEditView.h */,
+				044A63702373285E00AEC1BA /* YCLHCardEditView.m */,
+				044A63722373285F00AEC1BA /* YCLHResultView.h */,
+				044A63732373285F00AEC1BA /* YCLHResultView.m */,
+				044A637C23732B3200AEC1BA /* YCLHTCBubbleView.h */,
+				044A637B23732B3200AEC1BA /* YCLHTCBubbleView.m */,
+				049009E62397F3E7003E6817 /* YCTakeLHPhotoViewController.h */,
+				049009E72397F3E7003E6817 /* YCTakeLHPhotoViewController.m */,
+				0464EE5823A373DC00F311F2 /* YCLHPaperManualClipViewController.h */,
+				0464EE5723A373DC00F311F2 /* YCLHPaperManualClipViewController.m */,
+				0464EE6823A3789900F311F2 /* YCTakeLHPhotoManualView.h */,
+				0464EE6923A3789900F311F2 /* YCTakeLHPhotoManualView.m */,
+				044A637F23732B8100AEC1BA /* UIColor+YCExtension.h */,
+				044A637E23732B8100AEC1BA /* UIColor+YCExtension.m */,
+				52F9893723EA8C8F0093C2FE /* YCImage+Extension.h */,
+				52F9893823EA8C8F0093C2FE /* YCImage+Extension.m */,
+				52F9893B23EA8CD40093C2FE /* YCDeviceInfo.h */,
+				52F9893A23EA8CD40093C2FE /* YCDeviceInfo.m */,
+				52E56971240D1265009B05CE /* YCViewController+Extension.h */,
+				52E56972240D1265009B05CE /* YCViewController+Extension.m */,
+				047AEB4223702101009964FC /* Assets.xcassets */,
+				047AEB4423702101009964FC /* LaunchScreen.storyboard */,
+				047AEB4723702101009964FC /* Info.plist */,
+				524268E224A05814003602D3 /* ShecarePASDKDemo-Prefix.pch */,
+				047AEB4823702101009964FC /* main.m */,
+			);
+			path = ShecarePASDKDemo;
+			sourceTree = "<group>";
+		};
+		047AEB5123702101009964FC /* ShecarePASDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				524268B8249C6A32003602D3 /* ori_images */,
+				524268BA249C6A32003602D3 /* ori_images_barcode */,
+				524268B9249C6A32003602D3 /* result_images */,
+				047AEB5223702101009964FC /* ShecarePASDKDemoTests.m */,
+				524268D8249C6EB6003602D3 /* ShecareTestsUtilities.h */,
+				524268D7249C6EB6003602D3 /* ShecareTestsUtilities.m */,
+				047AEB5423702101009964FC /* Info.plist */,
+			);
+			path = ShecarePASDKDemoTests;
+			sourceTree = "<group>";
+		};
+		047AEB5C23702101009964FC /* ShecarePASDKDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047AEB5D23702101009964FC /* ShecarePASDKDemoUITests.m */,
+				047AEB5F23702101009964FC /* Info.plist */,
+			);
+			path = ShecarePASDKDemoUITests;
+			sourceTree = "<group>";
+		};
+		047AEC01237072C9009964FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52E09EF22428B14E0078D2DB /* SCPaperAnalysiserSDK.framework */,
+				042EE2E92374669800EF6614 /* SCNetPb.bundle */,
+				047AEC872371C74A009964FC /* libc++.tbd */,
+				047AEC832371C50B009964FC /* opencv2.framework */,
+				047AEC7F2371C4F7009964FC /* libprotobuf.a */,
+				047AEC7E2371C4F7009964FC /* libtensorflow-core.a */,
+				047AEC7D2371C4F7009964FC /* nsync.a */,
+				047AEC7B2371C4A5009964FC /* Accelerate.framework */,
+				047AEC792371C49E009964FC /* CoreMedia.framework */,
+				047AEC772371C490009964FC /* AVFoundation.framework */,
+				D8136132E1789506085285F2 /* libPods-ShecarePASDKDemo.a */,
+				0548B9A2B4162D6B09AECA02 /* libPods-ShecarePASDKDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		609186F023EF81E1C3E09B22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83FB5D5ED6F9B52CF018FFF4 /* Pods-ShecarePASDKDemo.debug.xcconfig */,
+				9F16E97B9912016688C1F84D /* Pods-ShecarePASDKDemo.release.xcconfig */,
+				C0B1D95C717AEB3C6AAC4008 /* Pods-ShecarePASDKDemoTests.debug.xcconfig */,
+				94EE3C2C542CC9C541E35EF3 /* Pods-ShecarePASDKDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047AEB3223702100009964FC /* ShecarePASDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047AEB6223702101009964FC /* Build configuration list for PBXNativeTarget "ShecarePASDKDemo" */;
+			buildPhases = (
+				32A7952A7AA31426A76A149A /* [CP] Check Pods Manifest.lock */,
+				047AEB2F23702100009964FC /* Sources */,
+				047AEB3023702100009964FC /* Frameworks */,
+				047AEB3123702100009964FC /* Resources */,
+				042EE2E42374658800EF6614 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShecarePASDKDemo;
+			productName = ShecarePASDKDemo;
+			productReference = 047AEB3323702100009964FC /* ShecarePASDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047AEB4D23702101009964FC /* ShecarePASDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047AEB6523702101009964FC /* Build configuration list for PBXNativeTarget "ShecarePASDKDemoTests" */;
+			buildPhases = (
+				99CB5B4B65B5BA695CED5887 /* [CP] Check Pods Manifest.lock */,
+				047AEB4A23702101009964FC /* Sources */,
+				047AEB4B23702101009964FC /* Frameworks */,
+				047AEB4C23702101009964FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047AEB5023702101009964FC /* PBXTargetDependency */,
+			);
+			name = ShecarePASDKDemoTests;
+			productName = ShecarePASDKDemoTests;
+			productReference = 047AEB4E23702101009964FC /* ShecarePASDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047AEB5823702101009964FC /* ShecarePASDKDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047AEB6823702101009964FC /* Build configuration list for PBXNativeTarget "ShecarePASDKDemoUITests" */;
+			buildPhases = (
+				047AEB5523702101009964FC /* Sources */,
+				047AEB5623702101009964FC /* Frameworks */,
+				047AEB5723702101009964FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047AEB5B23702101009964FC /* PBXTargetDependency */,
+			);
+			name = ShecarePASDKDemoUITests;
+			productName = ShecarePASDKDemoUITests;
+			productReference = 047AEB5923702101009964FC /* ShecarePASDKDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		525466CC24D3EA8D0042FCBB /* PADemo_Ratio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525466EF24D3EA8D0042FCBB /* Build configuration list for PBXNativeTarget "PADemo_Ratio" */;
+			buildPhases = (
+				525466CD24D3EA8D0042FCBB /* [CP] Check Pods Manifest.lock */,
+				525466CE24D3EA8D0042FCBB /* Sources */,
+				525466DF24D3EA8D0042FCBB /* Frameworks */,
+				525466EA24D3EA8D0042FCBB /* Resources */,
+				525466EE24D3EA8D0042FCBB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PADemo_Ratio;
+			productName = ShecarePASDKDemo;
+			productReference = 525466F224D3EA8D0042FCBB /* PADemo_Ratio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047AEB2B23702100009964FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = ikangtai;
+				TargetAttributes = {
+					047AEB3223702100009964FC = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					047AEB4D23702101009964FC = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 047AEB3223702100009964FC;
+					};
+					047AEB5823702101009964FC = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 047AEB3223702100009964FC;
+					};
+				};
+			};
+			buildConfigurationList = 047AEB2E23702100009964FC /* Build configuration list for PBXProject "ShecarePASDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047AEB2A23702100009964FC;
+			productRefGroup = 047AEB3423702100009964FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047AEB3223702100009964FC /* ShecarePASDKDemo */,
+				047AEB4D23702101009964FC /* ShecarePASDKDemoTests */,
+				047AEB5823702101009964FC /* ShecarePASDKDemoUITests */,
+				525466CC24D3EA8D0042FCBB /* PADemo_Ratio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047AEB3123702100009964FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047AEB4623702101009964FC /* LaunchScreen.storyboard in Resources */,
+				047AEB4323702101009964FC /* Assets.xcassets in Resources */,
+				042EE2EB2374669800EF6614 /* SCNetPb.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047AEB4C23702101009964FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524268BB249C6A32003602D3 /* ori_images in Resources */,
+				524268BF249C6A48003602D3 /* SCNetPb.bundle in Resources */,
+				524268BD249C6A32003602D3 /* ori_images_barcode in Resources */,
+				524268BC249C6A32003602D3 /* result_images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047AEB5723702101009964FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525466EA24D3EA8D0042FCBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525466EB24D3EA8D0042FCBB /* LaunchScreen.storyboard in Resources */,
+				525466EC24D3EA8D0042FCBB /* Assets.xcassets in Resources */,
+				525466ED24D3EA8D0042FCBB /* SCNetPb.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32A7952A7AA31426A76A149A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShecarePASDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		525466CD24D3EA8D0042FCBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShecarePASDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99CB5B4B65B5BA695CED5887 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShecarePASDKDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047AEB2F23702100009964FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044A63782373285F00AEC1BA /* YCLHCardEditView.m in Sources */,
+				52F9893C23EA8CD40093C2FE /* YCDeviceInfo.m in Sources */,
+				522B84FF25541DAE0088093D /* YCCustomTabBarController.m in Sources */,
+				047AEB3E23702100009964FC /* ViewController.m in Sources */,
+				047AEB3823702100009964FC /* AppDelegate.m in Sources */,
+				044A637A2373285F00AEC1BA /* YCLHCardCell.m in Sources */,
+				044A637D23732B3200AEC1BA /* YCLHTCBubbleView.m in Sources */,
+				0464EE6A23A3789900F311F2 /* YCTakeLHPhotoManualView.m in Sources */,
+				047AEB4923702101009964FC /* main.m in Sources */,
+				044A636E2373248600AEC1BA /* YCLHResultViewController.m in Sources */,
+				522B84FD25541DAE0088093D /* YCCustomNavigationController.m in Sources */,
+				044A63792373285F00AEC1BA /* YCLHResultView.m in Sources */,
+				52E56973240D1265009B05CE /* YCViewController+Extension.m in Sources */,
+				52F9893923EA8C8F0093C2FE /* YCImage+Extension.m in Sources */,
+				044A63872373490800AEC1BA /* YCViewController.m in Sources */,
+				049009EA2397F3E7003E6817 /* YCTakeLHPhotoViewController.m in Sources */,
+				044A638023732B8100AEC1BA /* UIColor+YCExtension.m in Sources */,
+				0464EE5923A373DC00F311F2 /* YCLHPaperManualClipViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047AEB4A23702101009964FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524268CD249C6B3A003602D3 /* YCLHCardEditView.m in Sources */,
+				524268D4249C6B3A003602D3 /* YCDeviceInfo.m in Sources */,
+				524268C9249C6B3A003602D3 /* YCViewController.m in Sources */,
+				524268CB249C6B3A003602D3 /* YCLHResultViewController.m in Sources */,
+				047AEB5323702101009964FC /* ShecarePASDKDemoTests.m in Sources */,
+				524268C7249C6B16003602D3 /* UIColor+YCExtension.m in Sources */,
+				524268D2249C6B3A003602D3 /* YCTakeLHPhotoManualView.m in Sources */,
+				524268CF249C6B3A003602D3 /* YCLHTCBubbleView.m in Sources */,
+				524268C8249C6B3A003602D3 /* AppDelegate.m in Sources */,
+				524268D9249C6EB6003602D3 /* ShecareTestsUtilities.m in Sources */,
+				524268CA249C6B3A003602D3 /* ViewController.m in Sources */,
+				524268D5249C6B3A003602D3 /* YCViewController+Extension.m in Sources */,
+				524268D3249C6B3A003602D3 /* YCImage+Extension.m in Sources */,
+				524268CE249C6B3A003602D3 /* YCLHResultView.m in Sources */,
+				524268D0249C6B3A003602D3 /* YCTakeLHPhotoViewController.m in Sources */,
+				524268CC249C6B3A003602D3 /* YCLHCardCell.m in Sources */,
+				524268D1249C6B3A003602D3 /* YCLHPaperManualClipViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047AEB5523702101009964FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047AEB5E23702101009964FC /* ShecarePASDKDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525466CE24D3EA8D0042FCBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525466CF24D3EA8D0042FCBB /* YCLHCardEditView.m in Sources */,
+				525466D024D3EA8D0042FCBB /* YCDeviceInfo.m in Sources */,
+				522B850025541DAE0088093D /* YCCustomTabBarController.m in Sources */,
+				525466D124D3EA8D0042FCBB /* ViewController.m in Sources */,
+				525466D224D3EA8D0042FCBB /* AppDelegate.m in Sources */,
+				525466D324D3EA8D0042FCBB /* YCLHCardCell.m in Sources */,
+				525466D424D3EA8D0042FCBB /* YCLHTCBubbleView.m in Sources */,
+				525466D524D3EA8D0042FCBB /* YCTakeLHPhotoManualView.m in Sources */,
+				525466D624D3EA8D0042FCBB /* main.m in Sources */,
+				525466D724D3EA8D0042FCBB /* YCLHResultViewController.m in Sources */,
+				522B84FE25541DAE0088093D /* YCCustomNavigationController.m in Sources */,
+				525466D824D3EA8D0042FCBB /* YCLHResultView.m in Sources */,
+				525466D924D3EA8D0042FCBB /* YCViewController+Extension.m in Sources */,
+				525466DA24D3EA8D0042FCBB /* YCImage+Extension.m in Sources */,
+				525466DB24D3EA8D0042FCBB /* YCViewController.m in Sources */,
+				525466DC24D3EA8D0042FCBB /* YCTakeLHPhotoViewController.m in Sources */,
+				525466DD24D3EA8D0042FCBB /* UIColor+YCExtension.m in Sources */,
+				525466DE24D3EA8D0042FCBB /* YCLHPaperManualClipViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047AEB5023702101009964FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047AEB3223702100009964FC /* ShecarePASDKDemo */;
+			targetProxy = 047AEB4F23702101009964FC /* PBXContainerItemProxy */;
+		};
+		047AEB5B23702101009964FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047AEB3223702100009964FC /* ShecarePASDKDemo */;
+			targetProxy = 047AEB5A23702101009964FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047AEB4423702101009964FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047AEB4523702101009964FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047AEB6023702101009964FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		047AEB6123702101009964FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047AEB6323702101009964FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83FB5D5ED6F9B52CF018FFF4 /* Pods-ShecarePASDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 110;
+				DEVELOPMENT_TEAM = YL5HCBTF4V;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShecarePASDKDemo",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FrameworkAndLib",
+				);
+				GCC_PREFIX_HEADER = "${SRCROOT}/ShecarePASDKDemo/ShecarePASDKDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TARGET_VERSION_LITE=0",
+				);
+				INFOPLIST_FILE = ShecarePASDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FrameworkAndLib/TensorFlow",
+					"$(PROJECT_DIR)/FrameworkAndLib",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"$(PROJECT_DIR)/FrameworkAndLib/TensorFlow/libtensorflow-core.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikangtai.ShecarePASDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047AEB6423702101009964FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F16E97B9912016688C1F84D /* Pods-ShecarePASDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 110;
+				DEVELOPMENT_TEAM = YL5HCBTF4V;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShecarePASDKDemo",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FrameworkAndLib",
+				);
+				GCC_PREFIX_HEADER = "${SRCROOT}/ShecarePASDKDemo/ShecarePASDKDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TARGET_VERSION_LITE=0",
+				);
+				INFOPLIST_FILE = ShecarePASDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FrameworkAndLib/TensorFlow",
+					"$(PROJECT_DIR)/FrameworkAndLib",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"$(PROJECT_DIR)/FrameworkAndLib/TensorFlow/libtensorflow-core.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikangtai.ShecarePASDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		047AEB6623702101009964FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B1D95C717AEB3C6AAC4008 /* Pods-ShecarePASDKDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LEE86U52GR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FrameworkAndLib",
+				);
+				INFOPLIST_FILE = ShecarePASDKDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FrameworkAndLib/TensorFlow",
+					"$(PROJECT_DIR)/FrameworkAndLib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Masonry\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikangtai.ShecarePASDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShecarePASDKDemo.app/ShecarePASDKDemo";
+			};
+			name = Debug;
+		};
+		047AEB6723702101009964FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94EE3C2C542CC9C541E35EF3 /* Pods-ShecarePASDKDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LEE86U52GR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FrameworkAndLib",
+				);
+				INFOPLIST_FILE = ShecarePASDKDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FrameworkAndLib/TensorFlow",
+					"$(PROJECT_DIR)/FrameworkAndLib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Masonry\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikangtai.ShecarePASDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShecarePASDKDemo.app/ShecarePASDKDemo";
+			};
+			name = Release;
+		};
+		047AEB6923702101009964FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LEE86U52GR;
+				INFOPLIST_FILE = ShecarePASDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikangtai.ShecarePASDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShecarePASDKDemo;
+			};
+			name = Debug;
+		};
+		047AEB6A23702101009964FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LEE86U52GR;
+				INFOPLIST_FILE = ShecarePASDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikangtai.ShecarePASDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShecarePASDKDemo;
+			};
+			name = Release;
+		};
+		525466F024D3EA8D0042FCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83FB5D5ED6F9B52CF018FFF4 /* Pods-ShecarePASDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 100;
+				DEVELOPMENT_TEAM = YL5HCBTF4V;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShecarePASDKDemo",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FrameworkAndLib",
+				);
+				GCC_PREFIX_HEADER = "${SRCROOT}/ShecarePASDKDemo/ShecarePASDKDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TARGET_VERSION_LITE=1",
+				);
+				INFOPLIST_FILE = "ShecarePASDKDemo copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FrameworkAndLib/TensorFlow",
+					"$(PROJECT_DIR)/FrameworkAndLib",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"$(PROJECT_DIR)/FrameworkAndLib/TensorFlow/libtensorflow-core.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikangtai.ShecarePASDKDemoRatio;
+				PRODUCT_NAME = PADemo_Ratio;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		525466F124D3EA8D0042FCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F16E97B9912016688C1F84D /* Pods-ShecarePASDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 100;
+				DEVELOPMENT_TEAM = YL5HCBTF4V;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShecarePASDKDemo",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FrameworkAndLib",
+				);
+				GCC_PREFIX_HEADER = "${SRCROOT}/ShecarePASDKDemo/ShecarePASDKDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TARGET_VERSION_LITE=1",
+				);
+				INFOPLIST_FILE = "ShecarePASDKDemo copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FrameworkAndLib/TensorFlow",
+					"$(PROJECT_DIR)/FrameworkAndLib",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"$(PROJECT_DIR)/FrameworkAndLib/TensorFlow/libtensorflow-core.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikangtai.ShecarePASDKDemoRatio;
+				PRODUCT_NAME = PADemo_Ratio;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047AEB2E23702100009964FC /* Build configuration list for PBXProject "ShecarePASDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047AEB6023702101009964FC /* Debug */,
+				047AEB6123702101009964FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047AEB6223702101009964FC /* Build configuration list for PBXNativeTarget "ShecarePASDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047AEB6323702101009964FC /* Debug */,
+				047AEB6423702101009964FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047AEB6523702101009964FC /* Build configuration list for PBXNativeTarget "ShecarePASDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047AEB6623702101009964FC /* Debug */,
+				047AEB6723702101009964FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047AEB6823702101009964FC /* Build configuration list for PBXNativeTarget "ShecarePASDKDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047AEB6923702101009964FC /* Debug */,
+				047AEB6A23702101009964FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525466EF24D3EA8D0042FCBB /* Build configuration list for PBXNativeTarget "PADemo_Ratio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525466F024D3EA8D0042FCBB /* Debug */,
+				525466F124D3EA8D0042FCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047AEB2B23702100009964FC /* Project object */;
+}

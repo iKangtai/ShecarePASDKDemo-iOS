@@ -1,0 +1,6 @@
+framework module SCPaperAnalysiserSDK {
+  umbrella header "SCPaperAnalysiserSDK.h"
+
+  export *
+  module * { export * }
+}
