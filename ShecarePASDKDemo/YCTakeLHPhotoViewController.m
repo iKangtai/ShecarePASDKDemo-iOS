@@ -411,7 +411,7 @@
 }
 
 /// 视频流扫描 “最终结果” 的回调
--(void)analysiser:(SCPaperAnalysiser *)analysiser didFinishVideoScan:(SCPaperAnalysiserResult *)result {
+-(void)analysiser:(SCPaperAnalysiser *)analysiser didFinishVideoScan:(SCPaperAnalysiserResult *)result bkImage:(UIImage *)bkImage {
     // SDK 回调，后续处理取决于业务需求，Demo 仅为示例
     // SDK 成功返回抠图和分析结果
     if (result.error.code == SCErrorCodeNoError) {
