@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SCPaperAnalysiserResult : NSObject
 
+/** Paper ID */
+@property (nonatomic, retain) NSString *paperID;
 /** 最终返回的抠图结果 */
 @property (nonatomic, strong, readonly) UIImage *finalImage;
 

@@ -33,6 +33,7 @@
 		047AEC852371C50B009964FC /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC832371C50B009964FC /* opencv2.framework */; };
 		047AEC882371C759009964FC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC872371C74A009964FC /* libc++.tbd */; };
 		049009EA2397F3E7003E6817 /* YCTakeLHPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049009E72397F3E7003E6817 /* YCTakeLHPhotoViewController.m */; };
+		3BA0F49DD06D769CB86B9789 /* libPods-ShecarePASDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8136132E1789506085285F2 /* libPods-ShecarePASDKDemo.a */; };
 		522B84FD25541DAE0088093D /* YCCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522B84F925541DAE0088093D /* YCCustomNavigationController.m */; };
 		522B84FE25541DAE0088093D /* YCCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522B84F925541DAE0088093D /* YCCustomNavigationController.m */; };
 		522B84FF25541DAE0088093D /* YCCustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522B84FA25541DAE0088093D /* YCCustomTabBarController.m */; };
@@ -91,7 +92,6 @@
 		525466E624D3EA8D0042FCBB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC872371C74A009964FC /* libc++.tbd */; };
 		525466E724D3EA8D0042FCBB /* nsync.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7D2371C4F7009964FC /* nsync.a */; };
 		525466E824D3EA8D0042FCBB /* libtensorflow-core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7E2371C4F7009964FC /* libtensorflow-core.a */; };
-		525466E924D3EA8D0042FCBB /* libPods-ShecarePASDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8136132E1789506085285F2 /* libPods-ShecarePASDKDemo.a */; };
 		525466EB24D3EA8D0042FCBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047AEB4423702101009964FC /* LaunchScreen.storyboard */; };
 		525466EC24D3EA8D0042FCBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047AEB4223702101009964FC /* Assets.xcassets */; };
 		525466ED24D3EA8D0042FCBB /* SCNetPb.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 042EE2E92374669800EF6614 /* SCNetPb.bundle */; };
@@ -209,10 +209,10 @@
 		52F9893823EA8C8F0093C2FE /* YCImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YCImage+Extension.m"; sourceTree = "<group>"; };
 		52F9893A23EA8CD40093C2FE /* YCDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCDeviceInfo.m; sourceTree = "<group>"; };
 		52F9893B23EA8CD40093C2FE /* YCDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCDeviceInfo.h; sourceTree = "<group>"; };
-		83FB5D5ED6F9B52CF018FFF4 /* Pods-ShecarePASDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShecarePASDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-ShecarePASDKDemo/Pods-ShecarePASDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		61E44CE40B8D70F3E2768BF2 /* Pods-ShecarePASDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShecarePASDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-ShecarePASDKDemo/Pods-ShecarePASDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		94EE3C2C542CC9C541E35EF3 /* Pods-ShecarePASDKDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShecarePASDKDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ShecarePASDKDemoTests/Pods-ShecarePASDKDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		9F16E97B9912016688C1F84D /* Pods-ShecarePASDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShecarePASDKDemo.release.xcconfig"; path = "Target Support Files/Pods-ShecarePASDKDemo/Pods-ShecarePASDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C0B1D95C717AEB3C6AAC4008 /* Pods-ShecarePASDKDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShecarePASDKDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ShecarePASDKDemoTests/Pods-ShecarePASDKDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4175530D979E9F29A76CE33 /* Pods-ShecarePASDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShecarePASDKDemo.release.xcconfig"; path = "Target Support Files/Pods-ShecarePASDKDemo/Pods-ShecarePASDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D8136132E1789506085285F2 /* libPods-ShecarePASDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShecarePASDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -231,6 +231,7 @@
 				047AEC802371C4F7009964FC /* nsync.a in Frameworks */,
 				047AEC812371C4F7009964FC /* libtensorflow-core.a in Frameworks */,
 				CBCC3C192B9638CC6312EB0E /* libPods-ShecarePASDKDemo.a in Frameworks */,
+				3BA0F49DD06D769CB86B9789 /* libPods-ShecarePASDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +272,6 @@
 				525466E624D3EA8D0042FCBB /* libc++.tbd in Frameworks */,
 				525466E724D3EA8D0042FCBB /* nsync.a in Frameworks */,
 				525466E824D3EA8D0042FCBB /* libtensorflow-core.a in Frameworks */,
-				525466E924D3EA8D0042FCBB /* libPods-ShecarePASDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,10 +394,10 @@
 		609186F023EF81E1C3E09B22 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				83FB5D5ED6F9B52CF018FFF4 /* Pods-ShecarePASDKDemo.debug.xcconfig */,
-				9F16E97B9912016688C1F84D /* Pods-ShecarePASDKDemo.release.xcconfig */,
 				C0B1D95C717AEB3C6AAC4008 /* Pods-ShecarePASDKDemoTests.debug.xcconfig */,
 				94EE3C2C542CC9C541E35EF3 /* Pods-ShecarePASDKDemoTests.release.xcconfig */,
+				61E44CE40B8D70F3E2768BF2 /* Pods-ShecarePASDKDemo.debug.xcconfig */,
+				C4175530D979E9F29A76CE33 /* Pods-ShecarePASDKDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -465,7 +465,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 525466EF24D3EA8D0042FCBB /* Build configuration list for PBXNativeTarget "PADemo_Ratio" */;
 			buildPhases = (
-				525466CD24D3EA8D0042FCBB /* [CP] Check Pods Manifest.lock */,
 				525466CE24D3EA8D0042FCBB /* Sources */,
 				525466DF24D3EA8D0042FCBB /* Frameworks */,
 				525466EA24D3EA8D0042FCBB /* Resources */,
@@ -566,28 +565,6 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		32A7952A7AA31426A76A149A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ShecarePASDKDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		525466CD24D3EA8D0042FCBB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -855,7 +832,7 @@
 		};
 		047AEB6323702101009964FC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83FB5D5ED6F9B52CF018FFF4 /* Pods-ShecarePASDKDemo.debug.xcconfig */;
+			baseConfigurationReference = 61E44CE40B8D70F3E2768BF2 /* Pods-ShecarePASDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -898,7 +875,7 @@
 		};
 		047AEB6423702101009964FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F16E97B9912016688C1F84D /* Pods-ShecarePASDKDemo.release.xcconfig */;
+			baseConfigurationReference = C4175530D979E9F29A76CE33 /* Pods-ShecarePASDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1055,7 +1032,6 @@
 		};
 		525466F024D3EA8D0042FCBB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83FB5D5ED6F9B52CF018FFF4 /* Pods-ShecarePASDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1098,7 +1074,6 @@
 		};
 		525466F124D3EA8D0042FCBB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F16E97B9912016688C1F84D /* Pods-ShecarePASDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

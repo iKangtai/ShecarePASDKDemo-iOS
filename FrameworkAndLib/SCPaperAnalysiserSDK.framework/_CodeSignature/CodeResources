@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/SCPaperAnalysiserResult.h</key>
 		<data>
-		NQP9R/4XOCuGiOVw1w0wf9v7bTE=
+		aa1Ld6xBiv0p1iAiLH6ewleUKQI=
 		</data>
 		<key>Headers/SCPaperAnalysiserSDK.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nhEE/HcOhtU1eX2Dghz2QyTTzOA=
+		AFCjOXPGnJyU1bbRmIJuQQD9jMk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>SCNetPb.bundle/Info.plist</key>
 		<data>
-		hoLujKoxczkUo8O9Fs5pYXlgCrw=
+		Bqa9rUdua8QvVlbf9XZGpdYVa6A=
 		</data>
 		<key>SCNetPb.bundle/hed_graph_encry.pb</key>
 		<data>
@@ -115,11 +115,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NQP9R/4XOCuGiOVw1w0wf9v7bTE=
+			aa1Ld6xBiv0p1iAiLH6ewleUKQI=
 			</data>
 			<key>hash2</key>
 			<data>
-			y3q4h6Dqf3w7IwI6jmVFsSkDAb5clcZbL/ROIFkhHQE=
+			J6f2iJqlYPL3GwJLJAP7xSKzGi7WuTxdG/F4YaQfkds=
 			</data>
 		</dict>
 		<key>Headers/SCPaperAnalysiserSDK.h</key>
@@ -170,11 +170,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hoLujKoxczkUo8O9Fs5pYXlgCrw=
+			Bqa9rUdua8QvVlbf9XZGpdYVa6A=
 			</data>
 			<key>hash2</key>
 			<data>
-			McyKT2k/OeRCMRtyn8k+TuHeURDsIN+BlqldI+Uj5KE=
+			+L648rXHt5fepBXcTVXZluWqwbEMHXnpy5CKciPe8DU=
 			</data>
 		</dict>
 		<key>SCNetPb.bundle/hed_graph_encry.pb</key>
