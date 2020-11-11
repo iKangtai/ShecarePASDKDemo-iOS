@@ -30,7 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 * @param analysiser 用于获取此数据的对象
 * @param result 扫描的结果
 */
--(void)analysiser:(SCPaperAnalysiser *)analysiser didFinishVideoScan:(SCPaperAnalysiserResult *)result;
+-(void)analysiser:(SCPaperAnalysiser *)analysiser didFinishVideoScan:(SCPaperAnalysiserResult *)result bkImage:(UIImage *)bkImage;
 
 @end
 
