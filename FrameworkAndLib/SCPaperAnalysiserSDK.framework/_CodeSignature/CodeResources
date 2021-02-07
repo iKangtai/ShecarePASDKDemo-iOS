@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		x6eUkAfg7DWj6dyPnwzzKaVcT/Q=
+		ud4KrcgOy0WpNCQ+EtG6H9DN70M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>SCNetPb.bundle/Info.plist</key>
 		<data>
-		5Ssv6167XrUWXOslZELuhrC/mFs=
+		/Q7idbTZIHprxdDzL+l/9At9/oY=
 		</data>
 		<key>SCNetPb.bundle/hed_graph_encry.pb</key>
 		<data>
@@ -170,11 +170,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5Ssv6167XrUWXOslZELuhrC/mFs=
+			/Q7idbTZIHprxdDzL+l/9At9/oY=
 			</data>
 			<key>hash2</key>
 			<data>
-			/AxUHoDCbQj/HAVOSgZlWnXpcdYiIOnM8E9CSRzzTYE=
+			XGrGjwBS5MzI8WG7MPyoC7pU7aLY/GmsVG9HSnpAsUM=
 			</data>
 		</dict>
 		<key>SCNetPb.bundle/hed_graph_encry.pb</key>
