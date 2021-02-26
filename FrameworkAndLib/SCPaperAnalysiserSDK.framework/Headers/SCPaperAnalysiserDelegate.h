@@ -30,6 +30,13 @@ NS_ASSUME_NONNULL_BEGIN
 * @param analysiser 用于获取此数据的对象
 * @param result 扫描的结果
 */
+-(void)analysiser:(SCPaperAnalysiser *)analysiser didFinishVideoScan:(SCPaperAnalysiserResult *)result;
+
+/*! @brief 视频流扫描 “最终结果” 的回调
+* @param analysiser 用于获取此数据的对象
+* @param result 扫描的结果
+* @param bkImage 拿到 “最终结果” 时，对应的 “全景图”
+*/
 -(void)analysiser:(SCPaperAnalysiser *)analysiser didFinishVideoScan:(SCPaperAnalysiserResult *)result bkImage:(UIImage *)bkImage;
 
 @end
