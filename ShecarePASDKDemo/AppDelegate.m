@@ -41,6 +41,7 @@
         YCTakeLHPhotoResultView *reView = scConfig.resultView;
         reView.titleLbl.text = @"拍照结果";
         reView.exampleImg = [UIImage imageNamed:@"confirm_sample_pic_LH"];
+        reView.exampleImgView.contentMode = UIViewContentModeScaleToFill;
         [reView.exampleImgView.bottomAnchor constraintEqualToAnchor:reView.imgView.topAnchor constant:-16].active = true;
         reView.flipLbl.text = @"水平翻转";
         [reView.flipLbl.bottomAnchor constraintEqualToAnchor:reView.commentLbl.topAnchor constant:-16].active = true;

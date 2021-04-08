@@ -231,3 +231,13 @@ typedef NS_ENUM(NSInteger, SCDebugLevel) {
 /** 试纸图片来源：1 相册；2 拍照 */
 @property (nonatomic, assign) SCImageType source;
 ```
+
+## 隐私协议
+
+第三方SDK：孕橙试纸SDK 
+
+1. 收集个人信息目的/用途：优化、改善试纸算法
+2. 收集个人信息类型：设备型号、操作系统、手机开发商标识符、网络数据
+3. 需要获取的权限：网络权限、相机权限
+4. 第三方SDK隐私政策链接：https://static.shecarefertility.com/shecare/resource/dist/#/papersdk_privacy_policy
+5. 提供方：北京爱康泰科技有限责任公司

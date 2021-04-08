@@ -231,3 +231,13 @@ typedef NS_ENUM(NSInteger, SCDebugLevel) {
 /** Source of test paper pictures: 1 photo album; 2 photos */
 @property (nonatomic, assign) SCImageType source;
 ```
+
+## Privacy Agreement
+
+Third-party SDK: Pregnant Orange Test Strip SDK
+
+1. Purpose/purpose of collecting personal information: optimizing and improving test strip algorithm
+2. The type of personal information collected: device model, operating system, mobile phone developer identifier, network data
+3. Required permissions: network permissions, camera permissions
+4. Third-party SDK privacy policy link: https://static.shecarefertility.com/shecare/resource/dist/#/papersdk_privacy_policy
+5. Provider: Beijing Aikangtai Technology Co., Ltd.
