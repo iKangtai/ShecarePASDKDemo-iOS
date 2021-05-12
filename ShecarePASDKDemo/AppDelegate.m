@@ -22,20 +22,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // 配置 Shecare SDK 参数
     SCPaperAnalysiserConfiguration *scConfig = [SCPaperAnalysiserConfiguration shared];
-    // 内部测试专用 appID 和 appSecret，第三方厂商集成时需要替换为自己的
+#warning SDK 正式上线时，需要把 appID、appSecret 和 unionId 改为厂商正式环境的数据
     scConfig.appID = YC_SAAS_APP_ID;
     scConfig.appSecret = YC_SAAS_APP_SECRET;
-        
     scConfig.unionId = @"test@example.com";
-    scConfig.extended = true;
-    scConfig.pixelOfExtended = 0;
 #warning SDK 运行环境在正式上线时需要改为 YCSEnvironmentRelease
     scConfig.environment = YCSEnvironmentDebug;
+    
+    scConfig.extended = true;
+    scConfig.pixelOfExtended = 0;
     scConfig.cImage = [UIImage imageNamed:@"c_line_slices"];
     scConfig.tImage = [UIImage imageNamed:@"t_line_slices"];
     scConfig.mainColor = [UIColor colorWithHex:0xFF7486];
     // YCTakeLHPhotoResultView 的 feedbackLbl 属性受语言环境影响，只在中、英文下显示。建议设置为当前应用的语言，和当前应用保持一致。
-    scConfig.language = @"en-US";
+    scConfig.language = @"zh-Hans";
     // scConfig.resultView UI 相关设置应该放在最后，且在主线程
     dispatch_async(dispatch_get_main_queue(), ^{
         YCTakeLHPhotoResultView *reView = scConfig.resultView;

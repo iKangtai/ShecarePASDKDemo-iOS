@@ -33,7 +33,6 @@
 		047AEC852371C50B009964FC /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC832371C50B009964FC /* opencv2.framework */; };
 		047AEC882371C759009964FC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC872371C74A009964FC /* libc++.tbd */; };
 		049009EA2397F3E7003E6817 /* YCTakeLHPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049009E72397F3E7003E6817 /* YCTakeLHPhotoViewController.m */; };
-		3BA0F49DD06D769CB86B9789 /* libPods-ShecarePASDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8136132E1789506085285F2 /* libPods-ShecarePASDKDemo.a */; };
 		522B84FD25541DAE0088093D /* YCCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522B84F925541DAE0088093D /* YCCustomNavigationController.m */; };
 		522B84FE25541DAE0088093D /* YCCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522B84F925541DAE0088093D /* YCCustomNavigationController.m */; };
 		522B84FF25541DAE0088093D /* YCCustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522B84FA25541DAE0088093D /* YCCustomTabBarController.m */; };
@@ -41,7 +40,6 @@
 		524268BB249C6A32003602D3 /* ori_images in Resources */ = {isa = PBXBuildFile; fileRef = 524268B8249C6A32003602D3 /* ori_images */; };
 		524268BC249C6A32003602D3 /* result_images in Resources */ = {isa = PBXBuildFile; fileRef = 524268B9249C6A32003602D3 /* result_images */; };
 		524268BD249C6A32003602D3 /* ori_images_barcode in Resources */ = {isa = PBXBuildFile; fileRef = 524268BA249C6A32003602D3 /* ori_images_barcode */; };
-		524268BE249C6A45003602D3 /* SCPaperAnalysiserSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E09EF22428B14E0078D2DB /* SCPaperAnalysiserSDK.framework */; };
 		524268BF249C6A48003602D3 /* SCNetPb.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 042EE2E92374669800EF6614 /* SCNetPb.bundle */; };
 		524268C0249C6A51003602D3 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC832371C50B009964FC /* opencv2.framework */; };
 		524268C1249C6A5C003602D3 /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7F2371C4F7009964FC /* libprotobuf.a */; };
@@ -87,7 +85,6 @@
 		525466E124D3EA8D0042FCBB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7B2371C4A5009964FC /* Accelerate.framework */; };
 		525466E224D3EA8D0042FCBB /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC832371C50B009964FC /* opencv2.framework */; };
 		525466E324D3EA8D0042FCBB /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7F2371C4F7009964FC /* libprotobuf.a */; };
-		525466E424D3EA8D0042FCBB /* SCPaperAnalysiserSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E09EF22428B14E0078D2DB /* SCPaperAnalysiserSDK.framework */; };
 		525466E524D3EA8D0042FCBB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC772371C490009964FC /* AVFoundation.framework */; };
 		525466E624D3EA8D0042FCBB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC872371C74A009964FC /* libc++.tbd */; };
 		525466E724D3EA8D0042FCBB /* nsync.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AEC7D2371C4F7009964FC /* nsync.a */; };
@@ -95,12 +92,14 @@
 		525466EB24D3EA8D0042FCBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047AEB4423702101009964FC /* LaunchScreen.storyboard */; };
 		525466EC24D3EA8D0042FCBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047AEB4223702101009964FC /* Assets.xcassets */; };
 		525466ED24D3EA8D0042FCBB /* SCNetPb.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 042EE2E92374669800EF6614 /* SCNetPb.bundle */; };
-		52E09EF32428B14E0078D2DB /* SCPaperAnalysiserSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E09EF22428B14E0078D2DB /* SCPaperAnalysiserSDK.framework */; };
 		52E56973240D1265009B05CE /* YCViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E56972240D1265009B05CE /* YCViewController+Extension.m */; };
 		52F9893923EA8C8F0093C2FE /* YCImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F9893823EA8C8F0093C2FE /* YCImage+Extension.m */; };
 		52F9893C23EA8CD40093C2FE /* YCDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F9893A23EA8CD40093C2FE /* YCDeviceInfo.m */; };
 		9256B20847EDAEA6A2D96905 /* libPods-ShecarePASDKDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0548B9A2B4162D6B09AECA02 /* libPods-ShecarePASDKDemoTests.a */; };
 		CBCC3C192B9638CC6312EB0E /* libPods-ShecarePASDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8136132E1789506085285F2 /* libPods-ShecarePASDKDemo.a */; };
+		F3AA211626259DC20076F932 /* SCPaperAnalysiserSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3AA211526259DC10076F932 /* SCPaperAnalysiserSDK.framework */; };
+		F3AA211726259DC20076F932 /* SCPaperAnalysiserSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3AA211526259DC10076F932 /* SCPaperAnalysiserSDK.framework */; };
+		F3AA211826259DC20076F932 /* SCPaperAnalysiserSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3AA211526259DC10076F932 /* SCPaperAnalysiserSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -202,7 +201,6 @@
 		524268E224A05814003602D3 /* ShecarePASDKDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShecarePASDKDemo-Prefix.pch"; sourceTree = "<group>"; };
 		525466F224D3EA8D0042FCBB /* PADemo_Ratio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PADemo_Ratio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525466F324D3EA8E0042FCBB /* ShecarePASDKDemo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ShecarePASDKDemo copy-Info.plist"; path = "/Users/macbookpro/Documents/Projects_Work/Shecare_SDK/ShecarePASDKDemo-iOS/ShecarePASDKDemo copy-Info.plist"; sourceTree = "<absolute>"; };
-		52E09EF22428B14E0078D2DB /* SCPaperAnalysiserSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCPaperAnalysiserSDK.framework; path = FrameworkAndLib/SCPaperAnalysiserSDK.framework; sourceTree = "<group>"; };
 		52E56971240D1265009B05CE /* YCViewController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YCViewController+Extension.h"; sourceTree = "<group>"; };
 		52E56972240D1265009B05CE /* YCViewController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YCViewController+Extension.m"; sourceTree = "<group>"; };
 		52F9893723EA8C8F0093C2FE /* YCImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YCImage+Extension.h"; sourceTree = "<group>"; };
@@ -214,6 +212,7 @@
 		C0B1D95C717AEB3C6AAC4008 /* Pods-ShecarePASDKDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShecarePASDKDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ShecarePASDKDemoTests/Pods-ShecarePASDKDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4175530D979E9F29A76CE33 /* Pods-ShecarePASDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShecarePASDKDemo.release.xcconfig"; path = "Target Support Files/Pods-ShecarePASDKDemo/Pods-ShecarePASDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D8136132E1789506085285F2 /* libPods-ShecarePASDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShecarePASDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AA211526259DC10076F932 /* SCPaperAnalysiserSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCPaperAnalysiserSDK.framework; path = FrameworkAndLib/SCPaperAnalysiserSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,13 +224,12 @@
 				047AEC7C2371C4A5009964FC /* Accelerate.framework in Frameworks */,
 				047AEC852371C50B009964FC /* opencv2.framework in Frameworks */,
 				047AEC822371C4F7009964FC /* libprotobuf.a in Frameworks */,
-				52E09EF32428B14E0078D2DB /* SCPaperAnalysiserSDK.framework in Frameworks */,
 				047AEC782371C491009964FC /* AVFoundation.framework in Frameworks */,
+				F3AA211626259DC20076F932 /* SCPaperAnalysiserSDK.framework in Frameworks */,
 				047AEC882371C759009964FC /* libc++.tbd in Frameworks */,
 				047AEC802371C4F7009964FC /* nsync.a in Frameworks */,
 				047AEC812371C4F7009964FC /* libtensorflow-core.a in Frameworks */,
 				CBCC3C192B9638CC6312EB0E /* libPods-ShecarePASDKDemo.a in Frameworks */,
-				3BA0F49DD06D769CB86B9789 /* libPods-ShecarePASDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,9 +240,9 @@
 				524268C6249C6A64003602D3 /* AVFoundation.framework in Frameworks */,
 				524268C0249C6A51003602D3 /* opencv2.framework in Frameworks */,
 				524268C1249C6A5C003602D3 /* libprotobuf.a in Frameworks */,
-				524268BE249C6A45003602D3 /* SCPaperAnalysiserSDK.framework in Frameworks */,
 				524268C4249C6A64003602D3 /* Accelerate.framework in Frameworks */,
 				524268C2249C6A5D003602D3 /* libtensorflow-core.a in Frameworks */,
+				F3AA211726259DC20076F932 /* SCPaperAnalysiserSDK.framework in Frameworks */,
 				524268D6249C6E8D003602D3 /* libc++.tbd in Frameworks */,
 				524268C3249C6A5D003602D3 /* nsync.a in Frameworks */,
 				524268C5249C6A64003602D3 /* CoreMedia.framework in Frameworks */,
@@ -267,8 +265,8 @@
 				525466E124D3EA8D0042FCBB /* Accelerate.framework in Frameworks */,
 				525466E224D3EA8D0042FCBB /* opencv2.framework in Frameworks */,
 				525466E324D3EA8D0042FCBB /* libprotobuf.a in Frameworks */,
-				525466E424D3EA8D0042FCBB /* SCPaperAnalysiserSDK.framework in Frameworks */,
 				525466E524D3EA8D0042FCBB /* AVFoundation.framework in Frameworks */,
+				F3AA211826259DC20076F932 /* SCPaperAnalysiserSDK.framework in Frameworks */,
 				525466E624D3EA8D0042FCBB /* libc++.tbd in Frameworks */,
 				525466E724D3EA8D0042FCBB /* nsync.a in Frameworks */,
 				525466E824D3EA8D0042FCBB /* libtensorflow-core.a in Frameworks */,
@@ -375,7 +373,7 @@
 		047AEC01237072C9009964FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				52E09EF22428B14E0078D2DB /* SCPaperAnalysiserSDK.framework */,
+				F3AA211526259DC10076F932 /* SCPaperAnalysiserSDK.framework */,
 				042EE2E92374669800EF6614 /* SCNetPb.bundle */,
 				047AEC872371C74A009964FC /* libc++.tbd */,
 				047AEC832371C50B009964FC /* opencv2.framework */,
@@ -485,7 +483,7 @@
 		047AEB2B23702100009964FC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = ikangtai;
 				TargetAttributes = {
 					047AEB3223702100009964FC = {
@@ -746,6 +744,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -770,7 +769,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -804,6 +803,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -822,7 +822,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
